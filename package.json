@@ -1,0 +1,20 @@
+{
+  "name": "qa-candidate-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TaskBoard QA candidate assessment: intentional bugs and Cypress exercises",
+  "scripts": {
+    "client:install": "npm --prefix src/ClientApp install",
+    "client:dev": "npm --prefix src/ClientApp run dev",
+    "client:build": "npm --prefix src/ClientApp run build",
+    "build": "npm run client:build",
+    "api:run": "dotnet run --project src/QaCandidateDemo.Api/QaCandidateDemo.Api.csproj --launch-profile http",
+    "start": "npm run build && npm run api:run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "15.21.0",
+    "typescript": "5.9.3"
+  }
+}

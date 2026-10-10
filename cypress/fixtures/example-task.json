@@ -1,0 +1,6 @@
+{
+  "title": "Cypress fixture task",
+  "description": "Loaded from cypress/fixtures/example-task.json",
+  "labels": "cypress, exercise",
+  "priority": "High"
+}
