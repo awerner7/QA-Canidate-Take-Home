@@ -61,4 +61,3 @@ Zip the repository (without `node_modules`, `bin`, `obj`, or `wwwroot`) or push 
 - `BUGS.md`
 - completed specs under `cypress/e2e/exercises/`
 
-Do **not** use materials under `docs/interviewer/` during the assessment.
