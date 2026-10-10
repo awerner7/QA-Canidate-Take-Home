@@ -9,8 +9,6 @@ Assessment app for QA applicants: intentional bugs, acceptance criteria, and Cyp
 | A — Exploratory testing | [docs/candidate/ACCEPTANCE-CRITERIA.md](./docs/candidate/ACCEPTANCE-CRITERIA.md) |
 | B — Cypress exercises | [docs/candidate/CYPRESS-EXERCISES.md](./docs/candidate/CYPRESS-EXERCISES.md) |
 
-Facilitators: [docs/interviewer/README.md](./docs/interviewer/README.md)
-
 ## Quick start
 
 ```bash
